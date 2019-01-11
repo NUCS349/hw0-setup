@@ -31,4 +31,8 @@ Great! Your environment is all set up. Do this for every assignment in the cours
 
 ## Github development cycle
 
+## Testing LaTeX integration
+
+$f_X \left({x}\right) = \dfrac 1 {\sigma \sqrt{2 \pi} } \, \exp \left({-\dfrac { \left({x - \mu}\right)^2} {2 \sigma^2} }\right)$
+
 ## Getting automatic feedback on push
