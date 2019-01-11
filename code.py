@@ -8,7 +8,7 @@ def sum_numbers(x, y):
     Returns:
         Sum of x and y.
     """
-    return x + y
+    return None
 
 def multiply_numbers(x, y):
     """
