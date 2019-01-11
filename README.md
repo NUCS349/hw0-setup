@@ -50,7 +50,7 @@ Great! Your environment is all set up. Do this for every assignment in the cours
 
 ## Github development cycle
 
-All assignments are submitted via Github in this class. Once you've accepted this assignment via the Github classroom link, it made a repository of the form https://github.com/nucs349/hw0-setup-\[your github username\]. In the first part of this README, you cloned the repository to your local machine to develop on.
+All assignments are submitted via Github in this class. Once you've accepted this assignment via the Github classroom link, it made a repository of the form `https://github.com/nucs349/hw0-setup-\[your github username\]`. In the first part of this README, you cloned the repository to your local machine to develop on.
 
 To make changes, simply open or create some file in your local version. If you created a file, you have to do:
 
@@ -124,7 +124,7 @@ Next, let's get acquainted with the Travis-CI output which automatically runs th
 For peace of mind, it's good to know that your code also works on a different machine. Travis-CI will initialize a fresh machine, install all of the requirements needed for the assignment, and run the tests. It then gives a check or a cross depending on if the tests all passed or if some or all failed, respectively.
 
 To view the output of travis, follow these steps:
-1. Navigate to https://github.com/NUCS349/hw0-setup-[your_username]/commits/master
+1. Navigate to `https://github.com/NUCS349/hw0-setup-[your_username]/commits/master`
 2. Here you'll see all of your commits. Next to each commit you will see an icon of either a green checkmark or a red X. Click the icon of the commit you wish to inspect.
 3. A pop-up appears. Click through to 'Details'.
 4. On this page you'll see the information given by Github regarding this commit and its corresponding run on Travis-CI. To inspect it further (and actually read the output of the test cases), click the link labeled `View more details on Travis CI` at the bottom of the page.
