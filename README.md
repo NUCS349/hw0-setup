@@ -23,6 +23,16 @@ Once the environment is created you can activate it with:
 
 ``conda activate hw0-setup``
 
-Your shell might look something like `(hw0-setup) stark:nucs349 prem<img src="/tex/9e92f99f8ca74753839f1288240e0914.svg?invert_in_darkmode&sanitize=true" align=middle width=1653.5362585499997pt height=164.2009182pt/>f_X \left({x}\right) = \dfrac 1 {\sigma \sqrt{2 \pi} } \, \exp \left({-\dfrac { \left({x - \mu}\right)^2} {2 \sigma^2} }\right)$
+Your shell might look something like `(hw0-setup) stark:nucs349 prem`. The environment name is in parenthesis, indicating that it is active. Now let's install the requirements for this assignment. Do this by navigating to the top root of this folder on the terminal and running, with an activated conda environment:
+
+``pip install -r requirements.txt``
+
+Great! Your environment is all set up. Do this for every assignment in the course.
+
+## Github development cycle
+
+## Testing LaTeX integration
+
+<img src="/tex/dda1a54eef33ca00cb79041e7eedb95b.svg?invert_in_darkmode&sanitize=true" align=middle width=248.8305501pt height=57.53473439999999pt/>
 
 ## Getting automatic feedback on push
