@@ -23,7 +23,7 @@ Once the environment is created you can activate it with:
 
 ``conda activate hw0-setup``
 
-Your shell might look something like `(hw0-setup) stark:nucs349 prem$`. The environment name is in parenthesis, indicating that it is active. Now let's install the requirements for this assignment. Do this by navigating to the top root of this folder on the terminal and running, with an activated conda environment:
+Your shell might look something like `(hw0-setup) stark:nucs349 prem`. The environment name is in parenthesis, indicating that it is active. Now let's install the requirements for this assignment. Do this by navigating to the top root of this folder on the terminal and running, with an activated conda environment:
 
 ``pip install -r requirements.txt``
 
