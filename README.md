@@ -62,9 +62,12 @@ to make `git` track the file. If you edited an already tracked file, you don't h
 
 will commit the change. `commit_message` is something that describes the type of change you made. Good commit messages are descriptive, easy to understand, and correspond well with the actual changes made. Finally:
 
-``git push origin master``
+```
+git pull origin master
+git push origin master
+```
 
-will push the commit to the repository on Github. This triggers testing code which checks your program for errors and compares it with the solution.
+will pull the remote code and then push the commit to the repository on Github. This triggers testing code which checks your program for errors and compares it with the solution.
 
 ## Running the test cases
 
