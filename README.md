@@ -57,16 +57,67 @@ will push the commit to the repository on Github. This triggers testing code whi
 
 ## Running the test cases
 
+Every assignment comes with a *testing suite* that is used for autograding. The way the grading of every assignment works is that it compares every function you implement with the output of the solution (made by the course instructors). The test cases are transparent in input/output and can be inspected in the `tests` directory in the assignment's repository. If you pass all the test cases, you will get 100% on the autograded portion of the assignment. If you pass 9/10 test cases, you will get 90% on the autograded portion. 8/10 = 80%. And so on. 
 
+The test cases can be run with:
+
+``python -m pytest``
+
+at the root directory of the assignment repository. This gives output that looks something like:
+
+```
+========== test session starts ===========
+platform darwin -- Python 3.7.2, pytest-4.1.0, py-1.7.0, pluggy-0.8.1
+rootdir: /Users/prem/teaching/nucs349/hw0-setup-pseeth, inifile:
+collected 1 item
+
+tests/test_assignment.py F         [100%]
+
+================ FAILURES ================
+____________ test_sum_numbers ____________
+
+    def test_sum_numbers():
+        from code import sum_numbers
+>       assert sum_numbers(3, 5) == 8
+E       assert None == 8
+E        +  where None = <function sum_numbers at 0x10f62de18>(3, 5)
+
+tests/test_assignment.py:3: AssertionError
+======== 1 failed in 0.04 seconds ========
+```
+
+Parsing this output we see we have failed one test: `test_sum_numbers`. Let's try to make this test pass by implementing the related function. 
+
+**Do that now by editing "code.py".**
+
+Then re-run the tests to see if they passed! If they did, you'll see something like this: 
+
+```
+========== test session starts ===========
+platform darwin -- Python 3.7.2, pytest-4.1.0, py-1.7.0, pluggy-0.8.1
+rootdir: /Users/prem/teaching/nucs349/hw0-setup-pseeth, inifile:
+collected 1 item
+
+tests/test_assignment.py .         [100%]
+
+======== 1 passed in 0.03 seconds ========
+```
+
+Next, let's get acquainted with the Travis-CI output which automatically runs the tests for you! For rapid development, it's better to run the tests on your own machine.
 
 ## Getting automatic feedback on push
-
-## Testing LaTeX integration
-
-<img src="/tex/dda1a54eef33ca00cb79041e7eedb95b.svg?invert_in_darkmode&sanitize=true" align=middle width=248.8305501pt height=57.53473439999999pt/>
+For peace of mind, it's good to know that your code also works on a different machine. Travis-CI will initialize a fresh machine, install all of the requirements needed for the assignment, and run the tests. It then gives a check or a cross depending on if the tests all passed or if some or all failed, respectively.
 
 
+
+## LaTeX code
+
+In the assignments, written responses are sometimes required. These are graded by hand. In some questions, you will be asked to write out math. To write out math, we request you use LaTeX code ([tutorial here](https://www.latex-tutorial.com/tutorials/amsmath/)). Every student repository has [Texify](https://github.com/apps/texify) installed in this class. Texify looks at any files in the repository of the form `*.tex.md`. These files have Tex run on them and the math expressions in those files are rendered. This happens automaticaly when you push to Github. For example, this document has some LaTeX code written out (check the corresponding `README.tex.md` in the top-level folder.) The tex corresponding to the following:
+
+<p align="center"><img src="/tex/a6eb3fa2e8d66eeeb5abc006083ba23b.svg?invert_in_darkmode&sanitize=true" align=middle width=248.8305501pt height=49.315569599999996pt/></p>
+
+can be seen, enclosed in dollar signs.
 
 ## Questions? Problems? Issues?
 
-Use the 
+Please make sure first that something in this document doesn't already address your issue! If you still have problems, simply open an issue on the starter code repository for this assignment [here](https://github.com/NUCS349/hw0-setup/issues). Someone from the teaching staff will get back to you through there!
