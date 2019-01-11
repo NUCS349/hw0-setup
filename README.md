@@ -71,7 +71,7 @@ will pull the remote code and then push the commit to the repository on Github. 
 
 ## Running the test cases
 
-Every assignment comes with a *testing suite* that is used for autograding. The way the grading of every assignment works is that it compares every function you implement with the output of the solution (made by the course instructors). The test cases are transparent in input/output and can be inspected in the `tests` directory in the assignment's repository. If you pass all the test cases, you will get 100% on the autograded portion of the assignment. If you pass 9/10 test cases, you will get 90% on the autograded portion. 8/10 = 80%. And so on. 
+Every assignment comes with a *testing suite* that is used for autograding. The way the grading of every assignment works is that it compares every function you implement with the output of the solution (made by the course instructors). The test cases are transparent in input/output and can be inspected in the `tests` directory in the assignment's repository. If you pass all the test cases, you will get 100% on the autograded portion of the assignment. If you pass 9/10 test cases, you will get 90% on the autograded portion. 8/10 = 80%. And so on. **However, for some assignments, there will be additional private test cases that are only known by the instructors.**  This is to avoid you overfitting to the distributed test cases. The distributed test cases are mostly to guide and help you with development.
 
 The test cases can be run with:
 
