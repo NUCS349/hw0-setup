@@ -27,6 +27,7 @@ Your shell might look something like `(hw0-setup) stark:nucs349 prem$`. The envi
 
 ``pip install -r requirements.txt``
 
+Great! Your environment is all set up. Do this for every assignment in the course.
 
 ## Github development cycle
 
