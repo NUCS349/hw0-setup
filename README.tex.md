@@ -5,7 +5,15 @@ In this assignment, the goals are:
 - to get acclimated to the "pull, commit, push" development cycle for git. All assignments in this course will be submitted via Github.
 - to see how the autograder works for this class. We use [Travis-CI](http://travis-ci.com) for autograding.
 
-## Setup
+## Clone this repository
+
+First, let's clone this repository. We'll use `git` for all submissions in this class. New to `git`? Not to worry, it's quite easy! Here's a [helpful guide](https://guides.github.com/activities/hello-world/). To clone this repository run the following command in some repository once you have git installed on your computer:
+
+``git clone https://github.com/nucs349/hw0-setup-[your_username]``
+
+`[your_username]` is replaced in the above link by your Github username. Alternatively, just look at the link in your address bar if you're viewing this README in your submission repository in a browser. Once cloned, `cd` into the cloned repository and continue on to environment setup.
+
+## Environment setup
 
 This course uses **Python 3**. Python 2 will not work for these assignments and all assignments will be graded with Python 3 on our end. Python 2 is [leaving the data science programming stack](https://pythonclock.org/) on Jan 1 2020.
 
@@ -31,8 +39,34 @@ Great! Your environment is all set up. Do this for every assignment in the cours
 
 ## Github development cycle
 
+All assignments are submitted via Github in this class. Once you've accepted this assignment via the Github classroom link, it made a repository of the form https://github.com/nucs349/hw0-setup-\[your github username\]. In the first part of this README, you cloned the repository to your local machine to develop on.
+
+To make changes, simply open or create some file in your local version. If you created a file, you have to do:
+
+``git add [new_file_name]`` 
+
+to make `git` track the file. If you edited an already tracked file, you don't have to add it. Then:
+
+``git commit -am [commit_message]``
+
+will commit the change. `commit_message` is something that describes the type of change you made. Good commit messages are descriptive, easy to understand, and correspond well with the actual changes made. Finally:
+
+``git push origin master``
+
+will push the commit to the repository on Github. This triggers testing code which checks your program for errors and compares it with the solution.
+
+## Running the test cases
+
+
+
+## Getting automatic feedback on push
+
 ## Testing LaTeX integration
 
 $f_X \left({x}\right) = \dfrac 1 {\sigma \sqrt{2 \pi} } \, \exp \left({-\dfrac { \left({x - \mu}\right)^2} {2 \sigma^2} }\right)$
 
-## Getting automatic feedback on push
+
+
+## Questions? Problems? Issues?
+
+Use the 
