@@ -11,7 +11,18 @@ First, let's clone this repository. We'll use `git` for all submissions in this 
 
 ``git clone https://github.com/nucs349/hw0-setup-[your_username]``
 
-`[your_username]` is replaced in the above link by your Github username. Alternatively, just look at the link in your address bar if you're viewing this README in your submission repository in a browser. Once cloned, `cd` into the cloned repository and continue on to environment setup.
+`[your_username]` is replaced in the above link by your Github username. Alternatively, just look at the link in your address bar if you're viewing this README in your submission repository in a browser. Once cloned, `cd` into the cloned repository. Every assignment has some files that you edit to complete it. 
+
+## Files you edit
+
+The following files are to be edited in this assignment:
+
+```
+code.py
+problems.tex.md
+```
+
+Do not edit anything in the `tests` directory. Files can be added to `tests` but files that exist already cannot be edited. Do not edit `.travis.yml`. This is used by Travis to test your code! 
 
 ## Environment setup
 
@@ -116,14 +127,16 @@ To view the output of travis, follow these steps:
 4. On this page you'll see the information given by Github regarding this commit and its corresponding run on Travis-CI. To inspect it further (and actually read the output of the test cases), click the link labeled `View more details on Travis CI` at the bottom of the page.
 5. Scroll down and you'll see the output of the build process and of `python -m pytest`. If your local environment is set up properly, the output of `python -m pytest` on your machine will match perfectly with the run on Travis-CI.
 
-## Writing out math
+## Free response questions
 
 In the assignments, written responses are sometimes required. These are graded by hand. In some questions, you will be asked to write out math. To write out math, we request you use LaTeX code ([tutorial here](https://www.latex-tutorial.com/tutorials/amsmath/)). Every student repository has [Texify](https://github.com/apps/texify) installed in this class. Texify looks at any files in the repository of the form `*.tex.md`. These files have Tex run on them and the math expressions in those files are rendered. This happens automaticaly when you push to Github. For example, this document has some LaTeX code written out (check the corresponding `README.tex.md` in the top-level folder.) The tex corresponding to the following:
 
 $$f_X \left({x}\right) = \dfrac 1 {\sigma \sqrt{2 \pi} } \, \exp \left({-\dfrac { \left({x - \mu}\right)^2} {2 \sigma^2} }\right)$$
 
-can be seen, enclosed in double dollar signs.
+can be seen, enclosed in double dollar signs. Now that that is clear, look in `problems.tex.md`  to answer the free response question.
 
 ## Questions? Problems? Issues?
 
 Please make sure first that something in this document doesn't already address your issue! If you still have problems, simply open an issue on the starter code repository for this assignment [here](https://github.com/NUCS349/hw0-setup/issues). Someone from the teaching staff will get back to you through there!
+
+That's all! The workflow for every assignment in this class will work something like this.

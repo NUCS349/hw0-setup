@@ -1,5 +1,6 @@
 def sum_numbers(x, y):
     """
+    TODO: IMPLEMENT ME
     Sum two numbers.
 
     Args:
@@ -12,6 +13,7 @@ def sum_numbers(x, y):
 
 def multiply_numbers(x, y):
     """
+    TODO: IMPLEMENT ME
     Multiply two numbers.
 
     Args:
