@@ -130,13 +130,13 @@ To view the output of travis, follow these steps:
 4. On this page you'll see the information given by Github regarding this commit and its corresponding run on Travis-CI. To inspect it further (and actually read the output of the test cases), click the link labeled `View more details on Travis CI` at the bottom of the page.
 5. Scroll down and you'll see the output of the build process and of `python -m pytest`. If your local environment is set up properly, the output of `python -m pytest` on your machine will match perfectly with the run on Travis-CI.
 
-## Free response questions
-
-In the assignments, written responses are sometimes required. These are graded by hand. In some questions, you will be asked to write out math. To write out math, we request you use LaTeX code ([tutorial here](https://www.latex-tutorial.com/tutorials/amsmath/)). Every student repository has [Texify](https://github.com/apps/texify) installed in this class. Texify looks at any files in the repository of the form `*.tex.md`. These files have Tex run on them and the math expressions in those files are rendered. This happens automaticaly when you push to Github. For example, this document has some LaTeX code written out (check the corresponding `README.tex.md` in the top-level folder.) The tex corresponding to the following:
+## On writing using LaTeX
+To write out math, it is helpful to use LaTeX code ([tutorial here](https://www.latex-tutorial.com/tutorials/amsmath/)). Every student repository has [Texify](https://github.com/apps/texify) installed in this class. Texify looks at any files in the repository of the form `*.tex.md`. These files have Tex run on them and the math expressions in those files are rendered. This happens automaticaly when you push to Github. For example, this document has some LaTeX code written out (check the corresponding `README.tex.md` in the top-level folder.) The tex corresponding to the following:
 
 $$f_X \left({x}\right) = \dfrac 1 {\sigma \sqrt{2 \pi} } \, \exp \left({-\dfrac { \left({x - \mu}\right)^2} {2 \sigma^2} }\right)$$
 
-can be seen, enclosed in double dollar signs. Now that that is clear, look in `problems.tex.md`  to answer the free response question.
+can be seen, enclosed in double dollar signs. 
+
 
 ## Questions? Problems? Issues?
 
