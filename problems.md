@@ -6,7 +6,7 @@ Pass test cases by implementing the functions in `code.py`. Each test case is we
 ## Free response questions on code (2 points, each question worth 0.5 points) 
 Answer the following free response questions in a separate document, saved as a .pdf and **uploaded to Canvas**. You can find these answers on the course homepage.
 
-1. Will we use an automated system to check for code duplication?
+1. Where do you submit your code and where do you submit your free-response questions? (hint: code goes one place, free response goes another)
 
 2. Are you required to do your own coding and to answer your own questions individually on the homework? 
 
