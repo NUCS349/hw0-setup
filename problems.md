@@ -12,7 +12,7 @@ Answer the following free response questions in a separate document, saved as a 
 
 3. What is the Drop One policy?
 
-4. Is something submitted 1 minute late graded, or is it an automatic 0, with no grading or feedback provided?
+4. Will we grade something even 1 minute late or does it receive an automatic 0, with no grading or feedback provided?
 
 5. If you are not sure you'll be done with an assignment by the deadline, what is a good approach to ensure you'll get points for the work you did complete prior to the deadline?
 
