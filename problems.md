@@ -6,11 +6,11 @@ Pass test cases by implementing the functions in `code.py`. Each test case is we
 ### Free response questions on code (2 points, each question worth 0.25 points) 
 Answer the following free response questions in a separate document, saved as a .pdf and **uploaded to Canvas**. You can find these answers on the course homepage.
 
-1. How many total points of extra credit are available? 
+1. How many total points of extra credit are available? Will there be special extra credit provided to indivudals who ask for it, beyond that provided to the class as a whole? 
 
-2. Will there be special extra credit provided to indivudals who ask for it, beyond that provided to the class as a whole? 
+2. Explain the Drop One policy.
 
-3. What is the Drop One policy?
+3. Is the Drop One policy applied to exams? Will we schedule alternate exams on different days for studnets who request that?
 
 4. Will we grade something submitted late (even if it is just 1 minute late) or does it receive an automatic 0, with no grading or feedback provided?
 
