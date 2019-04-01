@@ -1,0 +1,8 @@
+{
+    "score": 100,
+    "tests_passed": 2,
+    "notes": {
+        "test_sum_numbers": "PASS",
+        "test_multiply_numbers": "PASS"
+    }
+}

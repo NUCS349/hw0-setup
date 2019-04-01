@@ -1,0 +1,14 @@
+{
+    "test_netid": {
+        "weight": "required",
+        "depends": []
+    },
+    "test_multiply_numbers": {
+        "weight": 1,
+        "depends": []
+    },
+    "test_sum_numbers": {
+        "weight": 1,
+        "depends": []
+    }
+}
