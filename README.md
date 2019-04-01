@@ -19,7 +19,7 @@ The following files are to be edited in this assignment:
 
 ```
 code.py
-problems.tex.md
+A separate pdf with answers to the questions in problems.md
 ```
 
 Do not edit anything in the `tests` directory. Files can be added to `tests` but files that exist already cannot be edited. Do not edit `.travis.yml`. This is used by Travis to test your code! 
@@ -75,7 +75,7 @@ Every assignment comes with a *testing suite* that is used for autograding. The 
 
 The test cases can be run with:
 
-``python -m pytest``
+``python -m pytest -s``
 
 at the root directory of the assignment repository. This gives output that looks something like:
 
@@ -117,9 +117,9 @@ tests/test_assignment.py .         [100%]
 ======== 1 passed in 0.03 seconds ========
 ```
 
-Next, let's get acquainted with the Travis-CI output which automatically runs the tests for you! For rapid development, it's better to run the tests on your own machine.
+<!-- Next, let's get acquainted with the Travis-CI output which automatically runs the tests for you! For rapid development, it's better to run the tests on your own machine. -->
 
-## Getting automatic feedback on push
+<!-- ## Getting automatic feedback on push
 
 For peace of mind, it's good to know that your code also works on a different machine. Travis-CI will initialize a fresh machine, install all of the requirements needed for the assignment, and run the tests. It then gives a check or a cross depending on if the tests all passed or if some or all failed, respectively.
 
@@ -136,7 +136,7 @@ To write out math, it is helpful to use LaTeX code ([tutorial here](https://www.
 <p align="center"><img src="/tex/a6eb3fa2e8d66eeeb5abc006083ba23b.svg?invert_in_darkmode&sanitize=true" align=middle width=248.8305501pt height=49.315569599999996pt/></p>
 
 can be seen, enclosed in double dollar signs. 
-
+ -->
 
 ## Questions? Problems? Issues?
 
