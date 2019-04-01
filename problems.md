@@ -1,19 +1,28 @@
 ## Problems
 
-### Environment setup and code implementation (5 points)
-Pass test cases by implementing the functions in `code.py`. Each test case is weighted equally to make the overall score here (e.g. if you pass 1/2 test cases, you get 2.5 points).
+### Environment setup and code implementation (3 points)
+Pass test cases by implementing the functions in `code.py`. Each test case is weighted equally to make the overall score (e.g. if you pass 1/2 test cases, you get 1.5 points).
 
-## Free response questions (5 points)
-
+### Free response questions on code (2 points, each question worth 0.25 points) 
 Answer the following free response questions in a separate document, saved as a .pdf and **uploaded to Canvas**. You can find these answers on the course homepage.
 
-1. What is the course policy on submitting late assignments?
+1. How many total points of extra credit are available? Will there be special extra credit provided to indivudals who ask for it, beyond that provided to the class as a whole? 
 
-2. What is the course policy on extra credit?
+2. Explain the Drop One policy.
 
-3. Will we use an automated system to check for code duplication?
+3. Is the Drop One policy applied to exams? Will we schedule alternate exams on different days for studnets who request that?
 
-4. When is the final exam? 
+4. Will we grade something submitted late (even if it is just 1 minute late) or does it receive an automatic 0, with no grading or feedback provided?
 
-5. Is attendance graded?
- 
+5. If you are not sure you'll be done with an assignment by the deadline, what is a good approach to ensure you'll get points for the work you did complete prior to the deadline?
+
+6. Are you required to do your own coding and to answer your own questions individually on the homework? 
+
+7. Is attendance graded?
+
+8. Where should you go to find class announcements and post questions?
+
+
+  
+
+
