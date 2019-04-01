@@ -7,7 +7,7 @@ here, we will check.
 In this assignment, the goals are:
 - to set up a working programming environment using either `conda` or `virtualenv` environments.
 - to get acclimated to the "pull, commit, push" development cycle for git. All assignments in this course will be submitted via Github.
-- to see how the autograder works for this class. We use [Travis-CI](http://travis-ci.com) for autograding.
+- to see how the autograder works for this class.
 
 ## Clone this repository
 
@@ -26,7 +26,7 @@ code.py
 A separate pdf with answers to the questions in problems.md
 ```
 
-Do not edit anything in the `tests` directory. Files can be added to `tests` but files that exist already cannot be edited. Do not edit `.travis.yml`. This is used by Travis to test your code! 
+Do not edit anything in the `tests` directory. Files can be added to `tests` but files that exist already cannot be edited. 
 
 ## Environment setup
 
