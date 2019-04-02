@@ -17,25 +17,21 @@ First, let's clone this repository. We'll use `git` for all submissions in this 
 
 `[your_username]` is replaced in the above link by your Github username. Alternatively, just look at the link in your address bar if you're viewing this README in your submission repository in a browser. Once cloned, `cd` into the cloned repository. Every assignment has some files that you edit to complete it. 
 
-## Files you edit/create
+## What to do for this assignment
 
-The following files are to be edited in this assignment:
+What to do for this assignment is detailed in **problems.md**. To pass the test cases you will edit `code.py`.
 
-```
-code.py
+**You should also create a separate .pdf file with answers to the questions in problems.md. This file should be submitted on Canvas.**
 
-```
-You should also create a separate .pdf file with answers to the questions in problems.md. This file should be submitted on Canvas.
-
-Do not edit anything in the `tests` directory. Files can be added to `tests` but files that exist already cannot be edited. 
+Do not edit anything in the `tests` directory. Files can be added to `tests` but files that exist already cannot be edited.
 
 ## Environment setup
 
 This course uses **Python 3**. Python 2 will not work for these assignments and all assignments will be graded with Python 3 on our end. Python 2 is [leaving the data science programming stack](https://pythonclock.org/) on Jan 1 2020.
 
-The easiest way to get setup is to use [**miniconda**](https://conda.io/miniconda.html). 
+The easiest way to get setup is to use [**miniconda**](https://docs.conda.io/en/latest/miniconda.html). 
 
-Install the appropriate version of miniconda for your operating system (take care to select the Python 3 version). After miniconda is installed, you should be able to run `conda`. If you get an error (e.g. `-bash: conda: command not found`), make sure to source your bash file afterwards (`source ~/.bash_profile` worked for Prem). 
+Install the appropriate version of miniconda for your operating system (take care to select the Python 3 version). After miniconda is installed, you should be able to run `conda`. If you get an error (e.g. `-bash: conda: command not found`), make sure to source your bash file afterwards (`source ~/.bash_profile` worked for Prem) or if on Windows, restart your terminal.
 
 Now let's create a virtual environment. Virtual environments are a simple way to isolate all the dependencies for a particular project, making it easy to work on multiple projects at once without them interfering with each other (e.g. conflicting versions of libraries between projects). To make sure your environment matches the testing environment that we use for grading exactly, it's best to make a new environment for each assignment in this course. Here's the command:
 
