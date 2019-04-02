@@ -17,7 +17,7 @@ First, let's clone this repository. We'll use `git` for all submissions in this 
 
 `[your_username]` is replaced in the above link by your Github username. Alternatively, just look at the link in your address bar if you're viewing this README in your submission repository in a browser. Once cloned, `cd` into the cloned repository. Every assignment has some files that you edit to complete it. 
 
-## Files you edit
+## Files you edit/create
 
 The following files are to be edited in this assignment:
 
@@ -72,7 +72,9 @@ git pull origin master
 git push origin master
 ```
 
-will pull the remote code and then push the commit to the repository on Github. The version that is on the Github server (not the version on your local machine) is the one we will run our tests on.
+will pull the remote code and then push the commit to the repository on Github. 
+
+**The code that is on the Github server (not the version on your local machine) is the code we will run our tests on. If you don't push a commit, we won't see it and we won't grade it.**
 
 ## Running the test cases
 
@@ -142,6 +144,12 @@ To write out math, it is helpful to use LaTeX code ([tutorial here](https://www.
 
 can be seen, enclosed in double dollar signs. 
  -->
+
+## How to submit 
+
+CODE: The code that is on the Github server (not the version on your local machine) as of the deadline is the code we will run our tests on. If you don't push a commit, we won't see it and we won't grade it.
+
+FREE RESPONSE: For your free response answers, **you must submit a .pdf file on Canvas.**  We will grade the last thing you put on Canvas by the deadline. You don't get credit for having the free response in your code repository on github. 
 
 ## Questions? Problems? Issues?
 
