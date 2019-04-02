@@ -23,8 +23,9 @@ The following files are to be edited in this assignment:
 
 ```
 code.py
-A separate pdf with answers to the questions in problems.md
+
 ```
+You should also create a separate .pdf file with answers to the questions in problems.md. This file should be submitted on Canvas.
 
 Do not edit anything in the `tests` directory. Files can be added to `tests` but files that exist already cannot be edited. 
 
@@ -34,7 +35,7 @@ This course uses **Python 3**. Python 2 will not work for these assignments and 
 
 The easiest way to get setup is to use [**miniconda**](https://conda.io/miniconda.html). 
 
-Install the appropriate version of miniconda for your operating system (take care to select the Python 3 version). After miniconda is installed, you should be able to run `conda`. If you get an error (e.g. `-bash: conda: command not found`), make sure to source your bash file afterwards (`source ~/.bash_profile` worked for me). 
+Install the appropriate version of miniconda for your operating system (take care to select the Python 3 version). After miniconda is installed, you should be able to run `conda`. If you get an error (e.g. `-bash: conda: command not found`), make sure to source your bash file afterwards (`source ~/.bash_profile` worked for Prem). 
 
 Now let's create a virtual environment. Virtual environments are a simple way to isolate all the dependencies for a particular project, making it easy to work on multiple projects at once without them interfering with each other (e.g. conflicting versions of libraries between projects). To make sure your environment matches the testing environment that we use for grading exactly, it's best to make a new environment for each assignment in this course. Here's the command:
 
@@ -42,7 +43,7 @@ Now let's create a virtual environment. Virtual environments are a simple way to
 
 `hw0-setup` is the name for the environment and it can be replaced for each assignment (e.g. for the next homework, this would be hw1-decision-tree or something similar). The name can be whatever you want, just make sure to remember it!
 
-Once the environment is created you can activate it with:
+Once the environment is created you should activate it with:
 
 ``conda activate hw0-setup``
 
@@ -71,11 +72,11 @@ git pull origin master
 git push origin master
 ```
 
-will pull the remote code and then push the commit to the repository on Github. This triggers testing code which checks your program for errors and compares it with the solution.
+will pull the remote code and then push the commit to the repository on Github. The version that is on the Github server (not the version on your local machine) is the one we will run our tests on.
 
 ## Running the test cases
 
-Every assignment comes with a *testing suite* that is used for autograding. The way the grading of every assignment works is that it compares every function you implement with the output of the solution (made by the course instructors). The test cases are transparent in input/output and can be inspected in the `tests` directory in the assignment's repository. If you pass all the test cases, you will get 100% on the autograded portion of the assignment. If you pass 9/10 test cases, you will get 90% on the autograded portion. 8/10 = 80%. And so on. **However, for some assignments, there will be additional private test cases that are only known by the instructors.**  This is to avoid you overfitting to the distributed test cases. The distributed test cases are mostly to guide and help you with development.
+Every assignment comes with a *testing suite* that is used for autograding. This compares every function you implement with the output of a solution made by the course instructors. The test cases are transparent in input/output and can be inspected in the `tests` directory in the assignment's repository. If you pass all the test cases, you will get 100% on the autograded portion of the assignment. If you pass 9/10 test cases, you will get 90% on the autograded portion. 8/10 = 80%. And so on. **However, for some assignments, there will be additional private test cases that are only known by the instructors.**  This is to avoid you overfitting to the distributed test cases. The distributed test cases are mostly to guide and help you with development.
 
 The test cases can be run with:
 
