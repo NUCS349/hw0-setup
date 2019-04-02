@@ -6,7 +6,7 @@ here, we will check.
 
 In this assignment, the goals are:
 - to set up a working programming environment using either `conda` or `virtualenv` environments.
-- to get acclimated to the "pull, commit, push" development cycle for git. All assignments in this course will be submitted via Github.
+- to get acclimated to the "pull, commit, push" development cycle for git. All programming assignments in this course will be submitted via Github (all free-response quesitons will be submitted via Canvas).
 - to see how the autograder works for this class.
 
 ## Clone this repository
