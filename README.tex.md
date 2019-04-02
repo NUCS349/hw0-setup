@@ -145,7 +145,7 @@ $$f_X \left({x}\right) = \dfrac 1 {\sigma \sqrt{2 \pi} } \, \exp \left({-\dfrac 
 can be seen, enclosed in double dollar signs. 
  -->
 
-## How to submit 
+## How to submit your work
 
 CODE: The code that is on the Github server (not the version on your local machine) as of the deadline is the code we will run our tests on. If you don't push a commit, we won't see it and we won't grade it.
 
