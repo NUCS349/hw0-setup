@@ -3,11 +3,19 @@
         "weight": "required",
         "depends": []
     },
+    "test_sum_numbers": {
+        "weight": 1,
+        "depends": []
+    },
     "test_multiply_numbers": {
         "weight": 1,
         "depends": []
     },
-    "test_sum_numbers": {
+    "test_create_add_matrix": {
+        "weight": 1,
+        "depends": []
+    },
+    "test_indexing_aggregation": {
         "weight": 1,
         "depends": []
     }

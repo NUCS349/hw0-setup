@@ -1,7 +1,7 @@
 ## Problems
 
 ### Environment setup and code implementation (3 points)
-Pass test cases by implementing the functions in `code.py`. Each test case is weighted equally to make the overall score (e.g. if you pass 1/2 test cases, you get 1.5 points).
+Pass test cases by implementing the functions in `code.py`. You need to use NumPy which is a Python library for scientific computing. You will use Numpy for all the assignments throughout this course. Read this tutorial first to learn about Numpy: https://jalammar.github.io/visual-numpy. Each test case in this assignment is weighted equally to make the overall score (e.g. if you pass 1/2 test cases, you get 1.5 points).
 
 ### Free response questions on code (2 points, each question worth 0.2 points) 
 Answer the following free response questions in a separate document, saved as a .pdf and **uploaded to Canvas**. You can find these answers on the course homepage.
