@@ -33,7 +33,7 @@ def create_add_matrix(x):
     """
     TODO: IMPLEMENT ME
     Step 1. Create a 3x3 numpy array whose elements are all ones.
-    Step 2. Add the array to the input array x.
+    Step 2. Sum the array and the input array x.
     Step 3. Return the result
     
     Args:
