@@ -2,13 +2,17 @@
 
 **IMPORTANT: PUT YOUR NETID IN THE FILE** `netid` in the root directory of the assignment. 
 This is used to put the autograder output into Canvas. Please don't put someone else's netid 
-here, we will check.
+here, we will check. The netid should be placed into that file by itself as the only line, 
+with lower case letters and no carriage returns. 
+
+The line that is marked NETID_GOES_HERE should be REPLACED with YOUR netid.
+
+**IF YOU DON'T PUT YOUR NETID INTO THAT FILE PROPERLY YOU WILL NOT RECIEVE CREDIT FOR YOUR WORK!**
 
 In this assignment, the goals are:
 - to set up a working programming environment using either `conda` or `virtualenv` environments.
 - to get acclimated to the "pull, commit, push" development cycle for git. All programming assignments in this course will be submitted via Github (all free-response quesitons will be submitted via Canvas).
-- to see how the autograder works for this class.
-
+  
 ## Clone this repository
 
 First, let's clone this repository. We'll use `git` for all submissions in this class. New to `git`? Not to worry, it's quite easy! Here's a [helpful guide](https://guides.github.com/activities/hello-world/). To clone this repository run the following command in some repository once you have git installed on your computer:
