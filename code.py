@@ -48,7 +48,7 @@ def create_add_matrix(x):
 def indexing_aggregation(x, n):
     """
     TODO: IMPLEMENT ME
-    Return the maximum value among the first n elements of the input array x.
+    Return the mean value of the first n elements of the input array x.
 
     Args:
         x (np.ndarray): a 1D numpy array
