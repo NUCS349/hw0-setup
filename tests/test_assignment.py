@@ -7,7 +7,7 @@ def test_indexing_aggregation():
     n = np.random.randint(low=1, high=10)
     x = np.random.random(10)
 
-    assert indexing_aggregation(x, n) == x[:n].max()
+    assert np.isclose(indexing_aggregation(x, n), x[:n].mean())
 
 def test_create_add_matrix():
     from code import create_add_matrix
