@@ -15,11 +15,13 @@ In this assignment, the goals are:
   
 ## Clone this repository
 
-First, let's clone this repository. We'll use `git` for all submissions in this class. New to `git`? Not to worry, it's quite easy! Here's a [helpful guide](https://guides.github.com/activities/hello-world/). To clone this repository run the following command in some repository once you have git installed on your computer:
+First, let's clone this repository. We'll use `git` for all submissions in this class. New to `git`? Not to worry, it's quite easy! Here's a [helpful guide](https://guides.github.com/activities/hello-world/). 
 
-``git clone https://github.com/nucs349/hw0-setup-[your_username]``
+To clone this repository install GIT on your computer and copy the link of the repository (find above at "Clone or Download") and enter in the command line:
 
-`[your_username]` is replaced in the above link by your Github username. Alternatively, just look at the link in your address bar if you're viewing this README in your submission repository in a browser. Once cloned, `cd` into the cloned repository. Every assignment has some files that you edit to complete it. 
+``git clone YOUR-LINK``
+
+Alternatively, just look at the link in your address bar if you're viewing this README in your submission repository in a browser. Once cloned, `cd` into the cloned repository. Every assignment has some files that you edit to complete it. 
 
 ## What to do for this assignment
 
