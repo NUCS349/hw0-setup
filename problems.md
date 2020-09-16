@@ -1,14 +1,14 @@
 ## Problems
 
 ### Environment setup and code implementation (6 points)
-Pass test cases by implementing the functions in `code.py`. You need to use NumPy which is a Python library for scientific computing. You will use Numpy for all the assignments throughout this course. Read this tutorial first to learn about Numpy: https://jalammar.github.io/visual-numpy. Each test case in this assignment is weighted equally to make the overall score (e.g. if you pass 1/2 test cases, you get 1.5 points).
+Pass test cases by implementing the functions in `code.py`. You will need to use NumPy, which is a Python library for scientific computing. You will use NumPy for all the assignments throughout this course. Read this tutorial first to learn about NumPy: https://jalammar.github.io/visual-numpy. Each test case in this assignment is weighted equally to make the overall score (e.g. if you pass 1/2 test cases, you get 1.5 points).
 
-### Free response questions on code (4 points, each question worth 0.5 points) 
-Answer the following free response questions in a separate document, saved as a .pdf and **uploaded to Canvas**. You can find these answers on the course homepage.
+### Free-response questions (4 points, each question worth 0.5 points) 
+Answer the following free-response questions in a separate document, saved as a **.pdf** and **uploaded to Canvas**. You can find some of these answers in the course syllabus.
 
-1. How many total points of extra credit are available? Will there be special extra credit provided to indivudals who ask for it, beyond that provided to the class as a whole? 
+1. How many total points of extra credit are available? 
 
-2. Where do you submit the free response answers and in what file format must you submit it?
+2. Where do you submit the free-response answers and in what file format must you submit it?
 
 3. How is your code to be submitted?
    
